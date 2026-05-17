@@ -1,0 +1,54 @@
+{
+  "loaderEnabled": false,
+  "loaderLogo": "/img/flipkart-logo.webp",
+  "thankyouLogo": "/img/flipkart-logo.webp",
+  "facebookPixelId": "983033000772971",
+  "cashfreePayment": false,
+  "phonepeMode": 2,
+  "phonepeMode_comment": "1 = native, 2 = intent",
+  "upiOptions": [
+    {
+      "paymentName": "PhonePe",
+      "link": "phonepe://pay?pa=cc.9181538395921083@axisbank&pn=Merchant&cu=INR",
+      "upiimg": "/img/phone.webp",
+      "enabled": true
+    },
+    {
+      "paymentName": "Google Pay",
+      "link": "tez://upi/pay?pa=cc.9181538395921083@axisbank&pn=Merchant&cu=INR",
+      "upiimg": "/img/gpay.jpg",
+      "enabled": true
+    },
+    {
+      "paymentName": "Paytm",
+      "link": "paytmmp://pay?pa=cc.9181538395921083@axisbank&pn=Merchant&cu=INR",
+      "upiimg": "/img/pay.webp",
+      "enabled": true
+    },
+    
+    {
+      "paymentName": "Other UPI",
+      "link": "upi://pay?pa=cc.9181538395921083@axisbank&pn=Merchant&cu=INR",
+      "upiimg": "/img/upi.webp",
+      "enabled": true
+    }
+  ],
+  "razorpay": {
+    "enabled": false,
+    "keyId": "rzp_live_SA4VsEQdQcwNaG",
+    "keySecret": "6enb88mTLh7GemvGZhhfyth5",
+    "businessName": "Flipkart",
+    "logo": "/img/100.webp",
+    "themeColor": "#2874f0",
+    "prefill": {
+      "name": "",
+      "email": "",
+      "contact": ""
+    }
+  },
+  "payu": {
+    "enabled": false,
+    "backendUrl": "https://payuupiintenttester.vercel.app",
+    "comment": "Set backendUrl to your deployed PayU backend URL"
+  }
+}
